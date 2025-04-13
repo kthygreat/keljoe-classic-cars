@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Keljoe Classic Cars</title>
+    <link rel="stylesheet" href="final project.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Keljoe</span> Classic Cars</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="final project.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="AvailableCars.html">Available Cars</a></li>
+                    <li class="current"><a href="contact.html">Contact</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We’d love to hear from you! Whether you have questions about our services, need assistance, or just want to say hello, feel free to reach out to us.</p>
+            
+            <h2>Opening Hours</h2>
+            <p>Monday - Friday: 9am - 5pm</p>
+            <p>Saturday: 10am - 4pm</p>
+            <p>Sunday: Closed</p>   
+
+            <h2>Address</h2>
+            <p>1234 Keljoe Drive</p>
+            <p>Toronto, ON</p>
+            <p>L9A 5A5</p>
+
+            <h2>Phone</h2>
+            <p>1-800-123-4567</p>
+
+            <h2>Email</h2>
+            <p><a href="mailto:info@keljoe.com">info@keljoe.com</a></p>
+
+            <h2>Contact Form</h2>
+            <form action="submit_form.php" method="post" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+
+            <h2>Find Us</h2>
+            <div class="map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.9537353153167!3d-37.81627974202159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577d8c3e2b3b8e!2s1234%20Keljoe%20Drive%2C%20Toronto%2C%20ON!5e0!3m2!1sen!2sca!4v1610000000000!5m2!1sen!2sca" 
+                    width="100%" 
+                    height="300" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 Keljoe Classic Cars. All rights reserved.</p>
+    </footer>
+</body>
+</html>
